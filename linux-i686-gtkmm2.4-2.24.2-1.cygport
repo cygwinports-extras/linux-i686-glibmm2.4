@@ -1,0 +1,5 @@
+CROSS_HOST="i686-pc-linux-gnu"
+ORIG_PN="glibmm"
+inherit cross gtkmm
+
+CYGCONF_ARGS="--disable-documentation"
